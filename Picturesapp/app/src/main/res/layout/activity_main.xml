@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+<ViewFlipper
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/viewFlipper">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="769dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/natue_pic1" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView2"
+        android:src="@drawable/natue_pic2"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView3"
+        android:src="@drawable/natue_pic3"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView4"
+        android:src="@drawable/natue_pic4"/>
+
+
+
+</ViewFlipper>
+
+<Button
+android:id="@+id/next"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Next"
+android:layout_alignParentBottom="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentEnd="true"/>
+
+<Button
+android:id="@+id/previous"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Prev"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:layout_alignParentBottom="true"
+android:layout_alignTop="@+id/next"/>
+    <Button
+        android:id="@+id/b1"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="start" />
+</RelativeLayout>
+
